@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e63d1a9f4c7b28405ad6f0392bce8174, type: 3}
+  m_Name: Banner_Gold
+  m_EditorClassIdentifier: 
+  bannerId: gold
+  displayName: "\uACE8\uB4DC \uBAA8\uC9D1"
+  description: "\uC720\uC77C\uD558\uAC8C \uACE8\uB4DC\uB97C \uC4F4\uB2E4. GR \uD655\uB960\uC774 \uC544\uC8FC \uB0AE\uACE0, \uB098\uC640\uB3C4 \uC0C1\uC2DC \uCE90\uB9AD\uD130\uBFD0. \uD3EC\uC778\uD2B8\uB97C \uC8FC\uC9C0 \uC54A\uB294\uB2E4."
+  art: {fileID: 0}
+  kind: 1
+  currency: 1
+  givesPoints: 0
+  pulls:
+  - label: "1\uD68C"
+    count: 1
+    price: 3000
+    allSrOrBetter: 0
+    guaranteeSr: 0
+    guaranteeGr: 0
+    pickupOnGuarantee: 0
+  - label: "10\uC5F0\uCC28"
+    count: 10
+    price: 30000
+    allSrOrBetter: 0
+    guaranteeSr: 1
+    guaranteeGr: 0
+    pickupOnGuarantee: 0
+  pickup: []
+  standardPoolOnly: 1
+  prizes: []

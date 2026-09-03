@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f46b1e3d8072c45a93e6f80b52c1d74, type: 3}
+  m_Name: Personality_Cowpens
+  m_EditorClassIdentifier:
+  affiliation: "\uBCBD\uB78C"
+  age: 27
+  job: "\uC601\uC591\uC0AC"
+  goodwill: 80
+  sociability: 50
+  honesty: 70
+  empathy: 80
+  aggression: 30
+  egoistic: 80
+  courage: 50
+  regularity: 60
+  playful: 70
+  loneliness: 60
+  appetite: 80
+  fatigue: 50
+  fun: 60
+  safety: 60
+  recognition: 70
+  greed: 50

@@ -1,0 +1,149 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9675c7014f95bed418c3472e722d9e13, type: 3}
+  m_Name: 2.Mystic
+  m_EditorClassIdentifier: 
+  spine: {fileID: 11400000, guid: 01428b77b9e681e48b4537f664aa5863, type: 2}
+  talkAnimation: 1.idle
+  portrait: {fileID: 0}
+  lines:
+  - trigger: 3
+    message: "\uC2EC\uC5F0\uC758 \uC720\uD639\uC774\uC5EC, \uB0B4 \uD488\uC5D0 \uC548\uAE34
+      \uAD6C\uC2AC\uC744 \uD1B5\uD574 \uD758\uB7EC\uB098\uC640\uB77C!"
+    holdSeconds: 0
+    priority: 0
+  - trigger: 8
+    message: "\uB9C8\uC9C0\uB9C9\uAE4C\uC9C0 \uBC14\uB77C\uBCF4\uB358 \uADF8 \uB208\uBE5B\u2026
+      \uAF64 \uC990\uAC70\uC6E0\uC5B4."
+    holdSeconds: 0
+    priority: 0
+  - trigger: 9
+    message: "\uB0B4\uAC00 \uAC15\uD55C\uAC70\uB2C8\uAE4C \uC2AC\uD37C\uD558\uC9C0\uB9C8"
+    holdSeconds: 0
+    priority: 0
+  - trigger: 2
+    message: "\uB0B4 \uACF5\uACA9\uC744 \uC5B4\uB514\uAE4C\uC9C0 \uBC84\uD2F8 \uC218
+      \uC788\uC744\uAE4C?"
+    holdSeconds: 0
+    priority: 0
+  - trigger: 10
+    message: "\uD6C4\uD6C4\u2026 \uC774\uB7F0 \uAC8C\uC784\uC73C\uB85C \uB098\uC640 \uC2DC\uAC04\uC744 \uBCF4\uB0B4\uACA0\uB2E4\uACE0? \uB098\uB97C \uC774\uB807\uAC8C \uAC00\uAE4C\uC774\uC11C \uBCFC\uB824\uACE0 \uD558\uB2E4\uB2C8. \uC9D6\uAD83\uB124"
+    holdSeconds: 0
+    priority: 0
+  - trigger: 11
+    message: "\uB124 \uD328\uAC00 \uBB54\uC9C0 \uC54C \uAC83 \uAC19\uC544. \uADF8 \uC815\uB3C4\uBA74 \uAC70\uC758 \uC774\uAE34 \uAC70\uB098 \uB2E4\uB984\uC5C6\uC9C0."
+    holdSeconds: 0
+    priority: 0
+  - trigger: 11
+    message: "\uB0B4 \uC55E\uC5D0 \uC549\uC544 \uC788\uB294 \uB124\uAC00, \uC9C0\uAE08 \uC5BC\uB9C8\uB098 \uCD08\uC870\uD574 \uBCF4\uC774\uB294\uC9C0 \uC54C\uC544?"
+    holdSeconds: 0
+    priority: 0
+  - trigger: 12
+    message: "\uC0DD\uAC01\uBCF4\uB2E4 \uC131\uAC00\uC2E0 \uD328\uB124."
+    holdSeconds: 0
+    priority: 0
+  - trigger: 12
+    message: "\uB098\uB97C \uAE34\uC7A5\uD558\uAC8C \uB9CC\uB4E4 \uC218 \uC788\uB2E4\uB294 \uC0AC\uC2E4 \uC790\uCCB4\uAC00\u2026 \uD765\uBBF8\uB85C\uC6CC."
+    holdSeconds: 0
+    priority: 0
+  - trigger: 13
+    message: "\uCF5C. \uACC4\uC18D \uB098\uB97C \uBC14\uB77C\uBCF4\uBA70 \uBC84\uD168\uBD10."
+    holdSeconds: 0
+    priority: 0
+  - trigger: 13
+    message: "\uB124 \uBAB8\uC774 \uAC70\uAE30\uC11C \uB5A8\uC5B4\uC9C0\uC9C0 \uC54A\uB294 \uAC83\uCBE4\uC740\u2026 \uC774\uBBF8 \uC54C\uACE0 \uC788\uC73C\uB2C8\uAE4C"
+    holdSeconds: 0
+    priority: 0
+  - trigger: 14
+    message: "\uB808\uC774\uC988. \uC790, \uC774\uC81C \uC228\uC774 \uC880 \uAC00\uBE60\uC9C0\uC9C0 \uC54A\uC544? \uB124 \uB208\uC774 \uC790\uAFB8 \uC544\uB798\uB85C \uAC00\uB294 \uAC70\u2026 \uD6C4\uD6C4, \uB208\uC5D0 \uB2E4 \uBCF4\uC5EC."
+    holdSeconds: 0
+    priority: 0
+  - trigger: 15
+    message: "\uC790\uC2E0 \uC788\uB294 \uCC99\uD574\uB3C4, \uB124 \uB208\uB3D9\uC790\uB294 \uC774\uBBF8 \uD754\uB4E4\uB9AC\uACE0 \uC788\uC5B4. \uADF8 \uAC00\uC9DC \uC5EC\uC720\u2026 \uB0B4\uAC00 \uC9C1\uC811 \uBB34\uB108\uB728\uB824 \uC904\uAC8C."
+    holdSeconds: 0
+    priority: 0
+  - trigger: 15
+    message: "\uACC4\uC18D \uB098\uB97C \uBC14\uB77C\uBCF4\uACE0 \uC788\uC73C\uB2C8\uAE4C, \uB354 \uC7AC\uBBF8\uC788\uB124"
+    holdSeconds: 0
+    priority: 0
+  - trigger: 16
+    message: "\uC774\uBC88\uC5D0\uB294 \uD3EC\uAE30\uD560\uB798. \uC9C0\uAE08\uC740 \uAD73\uC774 \uD798\uC744 \uC4F8 \uD544\uC694 \uC5C6\uC5B4."
+    holdSeconds: 0
+    priority: 0
+  - trigger: 16
+    message: "\uB2E4\uC774\uC57C. \uB2E4\uC74C\uC5D0\uB294 \uC81C\uB300\uB85C \uC0C1\uB300\uD57C \uC904\uD14C\uB2C8\uAE4C.. \uC9C0\uAE08 \uB0B4 \uD45C\uC815 \uC78A\uC9C0 \uB9C8."
+    holdSeconds: 0
+    priority: 0
+  - trigger: 17
+    message: "\uC5ED\uC2DC. \uCC98\uC74C\uBD80\uD130 \uB124 \uD328\uB294 \uB0B4 \uC0C1\uB300\uAC00 \uB418\uC9C0 \uBABB\uD588\uC5B4."
+    holdSeconds: 0
+    priority: 0
+  - trigger: 17
+    message: "\uADF8 \uD45C\uC815\u2026 \uD6C4\uD6C4, \uAF64 \uBCF4\uAE30 \uC88B\uB124."
+    holdSeconds: 0
+    priority: 0
+  - trigger: 18
+    message: "\uB124\uAC00 \uB098\uB97C \uC774\uACBC\uB2E4\uB294 \uADF8 \uAE30\uC05C \uC5BC\uAD74, \uC7A0\uAE50 \uBD10\uC904\uAC8C."
+    holdSeconds: 0
+    priority: 0
+  - trigger: 18
+    message: "\uB204\uAD6C\uB4E0 \uC774\uAE38 \uC218 \uC788\uACE0, \uC9C8 \uB54C\uB3C4 \uC788\uC73C\uB2C8\uAE4C, \uADF8 \uAC10\uC815\uC740 \uACE7 \uB0B4 \uAC83\uC774 \uB420\uAEBC\uC57C."
+    holdSeconds: 0
+    priority: 0
+  - trigger: 19
+    message: "\uD6C4\uD6C4\uD6C4. \uB124\uAC00 \uC548\uC2EC\uD558\uACE0 \uC6C3\uB358 \uADF8 \uC21C\uAC04\uC744, \uB0B4\uAC00 \uC9C1\uC811 \uC9D3\uBC1F\uC740 \uAC70\uC57C. \uB2EC\uC544 \uC624\uB974\uC9C0 \uC54A\uC544?"
+    holdSeconds: 0
+    priority: 0
+  - trigger: 20
+    message: "\uC774 \uC815\uB3C4\uB85C \uB098\uB97C \uAD81\uC9C0\uC5D0 \uBAB0\uB2E4\uB2C8\u2026 \uB108, \uC0DD\uAC01\uBCF4\uB2E4 \uB300\uB2F4\uD558\uAD6C\uB098. \uB2E4\uC2DC \uBCF4\uAC8C \uB42C\uC5B4."
+    holdSeconds: 0
+    priority: 0
+  - trigger: 21
+    message: "\uBC8C\uC368 \uAC00\uB824\uACE0? \uC544\uC26C\uC6CC\uB77C~ \uB2E4\uC74C\uC5D0\uB3C4 \uB610 \uBD88\uB7EC\uC918."
+    holdSeconds: 0
+    priority: 0
+  - trigger: 22
+    message: "\uC774 \uC815\uB3C4\uB85C\uB294 \uB9CC\uC871\uD560 \uC218 \uC5C6\uC5B4. \uB354 \uBF51\uC744 \uAEBC\uC57C."
+    holdSeconds: 0
+    priority: 0
+  - trigger: 22
+    message: "\uD798\uC774 \uBD80\uC871\uD574. \uB354 \uD070 \uC218\uCE58\uB97C \uC6D0\uD574."
+    holdSeconds: 0
+    priority: 0
+  - trigger: 22
+    message: "\uB09C \uBB34\uB108\uC9C0\uC9C0 \uC54A\uC544. \uB354 \uD560 \uC218 \uC788\uC5B4."
+    holdSeconds: 0
+    priority: 0
+  - trigger: 23
+    message: "\uC2DC\uC120\uC774 \uB290\uAEF4\uC9C0\uB124, \uC5EC\uAE30\uC11C \uBA48\uCD9C\uAE4C?"
+    holdSeconds: 0
+    priority: 0
+  - trigger: 23
+    message: "\uC774\uAC83\uB3C4 \uCDA9\uBD84\uD788 \uAC15\uD55C \uC0C1\uD0DC\uC57C"
+    holdSeconds: 0
+    priority: 0
+  - trigger: 24
+    message: "\u2026\uC774\uB7F0, \uB118\uC5B4\uBC84\uB838\uB124. \uAC00\uB054\uC740 \uC774\uB7F0 \uC2E4\uC218\uB3C4 \uD574\uC57C \uB124\uAC00 \uC548\uC2EC\uD558\uACA0\uC9C0."
+    holdSeconds: 0
+    priority: 0
+  - trigger: 24
+    message: "\uB108\uBB34 \uC798\uD558\uBA74, \uC138\uC0C1\uC774 \uB098\uB97C \uC9C8\uD22C\uD558\uB2C8\uAE4C, \uC774\uB7F0 \uBA74\uBAA8\uB3C4 \uBCF4\uC5EC\uC918\uC57C\uC9C0"
+    holdSeconds: 0
+    priority: 0
+  - trigger: 25
+    message: "\uB0B4 \uC55E\uC5D0\uC11C\uB294 \uC774\uB7F0 \uC644\uBCBD\uD55C \uACB0\uACFC\uAC00 \uB098\uC624\uB294 \uAC8C \uB2F9\uC5F0\uD558\uC9C0."
+    holdSeconds: 0
+    priority: 0
+  - trigger: 25
+    message: "\uBD24\uC5B4? \uB098 \uB9D0\uACE0 \uC774 \uCE74\uB4DC\uD328\uB97C \uB9D0\uC774\uC57C. \uC815\uB9D0 \uC644\uBCBD\uD558\uB2E4\uACE0 \uB290\uAEF4\uC9C0\uC9C0 \uC54A\uC544?"
+    holdSeconds: 0
+    priority: 0

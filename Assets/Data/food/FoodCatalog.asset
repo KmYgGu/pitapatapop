@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b5055e58714af4f63dc6926046445d91, type: 3}
+  m_Name: FoodCatalog
+  m_EditorClassIdentifier: 
+  items:
+  - displayName: "\uC8FC\uBA39\uBC25"
+    icon: {fileID: 0}
+    price: 8
+    satiety: 15
+  - displayName: "\uC0B4\uB7EC\uB4DC"
+    icon: {fileID: 0}
+    price: 10
+    satiety: 12
+  - displayName: "\uC2A4\uD30C\uAC8C\uD2F0"
+    icon: {fileID: 0}
+    price: 18
+    satiety: 30
+  - displayName: "\uC2A4\uD14C\uC774\uD06C"
+    icon: {fileID: 0}
+    price: 30
+    satiety: 45
+  - displayName: "\uCD08\uCF5C\uB9BF \uCF00\uC774\uD06C"
+    icon: {fileID: 0}
+    price: 14
+    satiety: 18
+  - displayName: "\uB9E4\uC6B4\uD0D5"
+    icon: {fileID: 0}
+    price: 12
+    satiety: 22
+  - displayName: "\uD478\uB529"
+    icon: {fileID: 0}
+    price: 9
+    satiety: 10
+  - displayName: "\uC0DD\uC120\uAD6C\uC774"
+    icon: {fileID: 0}
+    price: 16
+    satiety: 26

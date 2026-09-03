@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e63d1a9f4c7b28405ad6f0392bce8174, type: 3}
+  m_Name: Banner_Box
+  m_EditorClassIdentifier: 
+  bannerId: box
+  displayName: "\uBC15\uC2A4 \uBAA8\uC9D1"
+  description: "\uB069\uC740 \uB4F1\uAE09\uC740 \uC0C1\uC790\uC5D0\uC11C \uBE60\uC9C4\uB2E4. \uB069\uC744\uC218\uB85D GR \uC774 \uB098\uC62C \uD655\uB960\uC774 \uC624\uB978\uB2E4."
+  art: {fileID: 0}
+  kind: 2
+  currency: 0
+  givesPoints: 1
+  pulls:
+  - label: "1\uD68C"
+    count: 1
+    price: 30
+    allSrOrBetter: 0
+    guaranteeSr: 0
+    guaranteeGr: 0
+    pickupOnGuarantee: 0
+  - label: "10\uC5F0\uCC28"
+    count: 10
+    price: 300
+    allSrOrBetter: 0
+    guaranteeSr: 1
+    guaranteeGr: 0
+    pickupOnGuarantee: 0
+  pickup: []
+  standardPoolOnly: 0
+  prizes: []

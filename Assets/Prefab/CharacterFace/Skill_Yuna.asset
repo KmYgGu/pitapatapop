@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f13500d129a8465c8bba9909928f2ab0, type: 3}
+  m_Name: Skill_Yuna
+  m_EditorClassIdentifier: 
+  skillName: "\uBC84\uB2DD \uD2B8\uB799!"
+  description: "\uB9E8 \uC544\uB798\uC758 \uD589\uC758 \uBB34\uC791\uC704 \uCE78\uC5D0 \uD2B9\uC218 \uBE14\uB85D\uC744 \uD558\uB098 \uC0DD\uC131\uD569\uB2C8\uB2E4. \uC774 \uD2B9\uC218 \uBE14\uB85D\uC744 \uD5A5\uD574 \uD37C\uC98C\uC744 \uC62E\uAE30\uBA74 \uADF8 \uD37C\uC98C\uC758 \uB370\uBBF8\uC9C0\uB85C \uC5F4\uC548\uC758 \uBE14\uB85D\uC744 \uBAA8\uB450 \uC81C\uAC70\uD569\uB2C8\uB2E4."
+  category: 2
+  rangeImage: {fileID: 0}
+  effects:
+  - kind: 5
+    targetSlot: -1
+    cells: []
+    empowerMultiplier: 1.5
+    scatterCount: 2
+    overwritesBoxes: 0
+    maxCycles: 0
+    specialSize: 2
+    specialMatches: 3
+    wipeColumns: 1
+    wipeRows: 1
+    burnBlocks: 1

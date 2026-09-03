@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f13500d129a8465c8bba9909928f2ab0, type: 3}
+  m_Name: Skill_Luvania
+  m_EditorClassIdentifier: 
+  skillName: "\uAC80\uC740 \uD30C\uB3D9!"
+  description: "\uBB34\uC791\uC704 1\uC5F4\uACFC 1\uD589\uC744 \uC81C\uAC70\uD55C \uD6C4, \uC81C\uAC70\uD55C \uACF5\uAC04\uC5D0 \uC790\uC2E0\uC758 \uD328\uB110\uC744 \uC0DD\uC131\uD569\uB2C8\uB2E4."
+  category: 2
+  rangeImage: {fileID: 0}
+  effects:
+  - kind: 4
+    targetSlot: -1
+    cells: []
+    empowerMultiplier: 1.5
+    scatterCount: 2
+    overwritesBoxes: 0
+    maxCycles: 0
+    specialSize: 2
+    specialMatches: 3
+    wipeColumns: 1
+    wipeRows: 1

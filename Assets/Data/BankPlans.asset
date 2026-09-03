@@ -1,0 +1,48 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9e6c15b30d824af7a91c380e2b7fd456, type: 3}
+  m_Name: BankPlans
+  m_EditorClassIdentifier: 
+  plans:
+  - displayName: "\uC9E7\uC740 \uC608\uAE08"
+    unlockLevel: 1
+    hours: 1
+    interestPercent: 3
+    earlyFeePercent: 10
+    maxGold: 3000
+    maxGoldPerLevel: 500
+    maxGems: 50
+    maxGemsPerLevel: 10
+  - displayName: "\uBC18\uB098\uC808 \uC608\uAE08"
+    unlockLevel: 10
+    hours: 6
+    interestPercent: 12
+    earlyFeePercent: 20
+    maxGold: 10000
+    maxGoldPerLevel: 1500
+    maxGems: 150
+    maxGemsPerLevel: 25
+  - displayName: "\uD558\uB8E8 \uC608\uAE08"
+    unlockLevel: 20
+    hours: 24
+    interestPercent: 30
+    earlyFeePercent: 35
+    maxGold: 30000
+    maxGoldPerLevel: 4000
+    maxGems: 400
+    maxGemsPerLevel: 60
+  gemsPerPower: 0.2
+  loanBaseHours: 336
+  gemsPerLoanHour: 50
+  loanMaxHours: 720
+  rescueMultiplier: 1.5
+  loanCooldownHours: 72

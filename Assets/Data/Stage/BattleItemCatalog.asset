@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b2660f8d58df46178e99984741b60100, type: 3}
+  m_Name: BattleItemCatalog
+  m_EditorClassIdentifier: 
+  items:
+  - kind: 0
+    displayName: "\uB370\uBBF8\uC9C0 \uC99D\uAC00"
+    description: "\uB370\uBBF8\uC9C0 20% \uC99D\uAC00"
+    price: 1200
+    value: 1.5
+    icon: {fileID: 0}
+  - kind: 1
+    displayName: "\uCF54\uC778 \uC99D\uAC00"
+    description: "\uD68D\uB4DD \uCF54\uC778 30% \uC99D\uAC00"
+    price: 800
+    value: 1.3
+    icon: {fileID: 0}
+  - kind: 2
+    displayName: "\uC2DC\uAC04 \uC99D\uAC00"
+    description: "\uC81C\uD55C\uC2DC\uAC04 15\uCD08 \uCD94\uAC00"
+    price: 1000
+    value: 30
+    icon: {fileID: 0}
+  - kind: 3
+    displayName: "\uC2A4\uD0AC \uC989\uC2DC"
+    description: "\uC2A4\uD0AC \uAC8C\uC774\uC9C0 100%\uB85C \uC2DC\uC791"
+    price: 2000
+    value: 1
+    icon: {fileID: 0}

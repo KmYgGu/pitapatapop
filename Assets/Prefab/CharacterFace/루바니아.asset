@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 20f09ca17fbb6f74b886802b3b33eb58, type: 3}
+  m_Name: "\uB8E8\uBC14\uB2C8\uC544"
+  m_EditorClassIdentifier: 
+  panelId: 
+  displayName: 
+  iconTrim:
+    x: 0.0137
+    y: 0.0000
+    width: 0.9863
+    height: 1.0000
+  icon: {fileID: 21300000, guid: bb76d7ba6339c2146a017a9ba901fc32, type: 3}
+  themeColor: {r: 1, g: 1, b: 1, a: 1}
+  frameColor: 6
+  standUpIcon: {fileID: 21300000, guid: 5a598d15164ffb04b99e3b009f87567b, type: 3}
+  speech: {fileID: 11400000, guid: ae0baf45d2cf47e4cb0d2606910f9d2a, type: 2}
+  skill: {fileID: 11400000, guid: 3e7fa9c418b5462d9c0e71d5a8f34b60, type: 2}
+  personality: {fileID: 11400000, guid: 1f83b25c7a094de6820c4fb3d97e65a1, type: 2}
+  skillRequiredMatchCount: 75
+  grade: 0
+  level: 2
+  currentExp: 110

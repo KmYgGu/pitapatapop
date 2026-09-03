@@ -1,0 +1,285 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a80f5e1c94b47d2ba6103e75fc82419, type: 3}
+  m_Name: StickerCatalog
+  m_EditorClassIdentifier: 
+  stickers:
+  - id: 100001
+    cost: 10
+    kind: 0
+    effect: 1
+    color: 0
+    value: 5
+    threshold: 0
+    seconds: 0
+    description: "\uB178\uB780\uC0C9 \uD37C\uC990 \uBE14\uB85D \uB9AC\uC820 \uD655\uB960+5%"
+    sprite: {fileID: 21300000, guid: f8db1aa0f8db1aa0f8db1aa0f8db1aa0, type: 3}
+  - id: 100002
+    cost: 10
+    kind: 0
+    effect: 1
+    color: 1
+    value: 5
+    threshold: 0
+    seconds: 0
+    description: "\uC5F0\uB450\uC0C9 \uD37C\uC990 \uBE14\uB85D \uB9AC\uC820 \uD655\uB960+5%"
+    sprite: {fileID: 21300000, guid: 61d24b1a61d24b1a61d24b1a61d24b1a, type: 3}
+  - id: 100003
+    cost: 10
+    kind: 0
+    effect: 1
+    color: 2
+    value: 5
+    threshold: 0
+    seconds: 0
+    description: "\uBCF4\uB77C\uC0C9 \uD37C\uC990 \uBE14\uB85D \uB9AC\uC820 \uD655\uB960+5%"
+    sprite: {fileID: 21300000, guid: 16d57b8c16d57b8c16d57b8c16d57b8c, type: 3}
+  - id: 100004
+    cost: 10
+    kind: 0
+    effect: 1
+    color: 3
+    value: 5
+    threshold: 0
+    seconds: 0
+    description: "\uBD84\uD64D\uC0C9 \uD37C\uC990 \uBE14\uB85D \uB9AC\uC820 \uD655\uB960+5%"
+    sprite: {fileID: 21300000, guid: 88b1ee2f88b1ee2f88b1ee2f88b1ee2f, type: 3}
+  - id: 100005
+    cost: 10
+    kind: 0
+    effect: 1
+    color: 4
+    value: 5
+    threshold: 0
+    seconds: 0
+    description: "\uD30C\uB791\uC0C9 \uD37C\uC990 \uBE14\uB85D \uB9AC\uC820 \uD655\uB960+5%"
+    sprite: {fileID: 21300000, guid: ffb6deb9ffb6deb9ffb6deb9ffb6deb9, type: 3}
+  - id: 100006
+    cost: 10
+    kind: 0
+    effect: 1
+    color: 5
+    value: 5
+    threshold: 0
+    seconds: 0
+    description: "\uD770\uC0C9 \uD37C\uC990 \uBE14\uB85D \uB9AC\uC820 \uD655\uB960+5%"
+    sprite: {fileID: 21300000, guid: 66bf8f0366bf8f0366bf8f0366bf8f03, type: 3}
+  - id: 100007
+    cost: 10
+    kind: 0
+    effect: 1
+    color: 6
+    value: 5
+    threshold: 0
+    seconds: 0
+    description: "\uBE68\uAC04\uC0C9 \uD37C\uC990 \uBE14\uB85D \uB9AC\uC820 \uD655\uB960+5%"
+    sprite: {fileID: 21300000, guid: 11b8bf9511b8bf9511b8bf9511b8bf95, type: 3}
+  - id: 100008
+    cost: 10
+    kind: 0
+    effect: 1
+    color: 7
+    value: 5
+    threshold: 0
+    seconds: 0
+    description: "\uAC80\uC815\uC0C9 \uD37C\uC990 \uBE14\uB85D \uB9AC\uC820 \uD655\uB960+5%"
+    sprite: {fileID: 21300000, guid: 8107a2048107a2048107a2048107a204, type: 3}
+  - id: 100009
+    cost: 15
+    kind: 0
+    effect: 2
+    color: -1
+    value: 10
+    threshold: 0
+    seconds: 0
+    description: "\uC911\uBCF5\uC0C9\uC774 \uC788\uC744 \uACBD\uC6B0, \uC6D0\uBCF8\uC0C9 \uD37C\uC990 \uBE14\uB85D \uB9AC\uC820 \uD655\uB960+10%"
+    sprite: {fileID: 21300000, guid: f6009292f6009292f6009292f6009292, type: 3}
+  - id: 100011
+    cost: 5
+    kind: 0
+    effect: 3
+    color: 0
+    value: 1
+    threshold: 0
+    seconds: 0
+    description: "\uB178\uB780\uC0C9 \uD37C\uC990 \uB370\uBBF8\uC9C0 \uC99D\uAC00+1%"
+    sprite: {fileID: 21300000, guid: e1c02be1e1c02be1e1c02be1e1c02be1, type: 3}
+  - id: 100012
+    cost: 5
+    kind: 0
+    effect: 3
+    color: 1
+    value: 1
+    threshold: 0
+    seconds: 0
+    description: "\uC5F0\uB450\uC0C9 \uD37C\uC990 \uB370\uBBF8\uC9C0 \uC99D\uAC00+1%"
+    sprite: {fileID: 21300000, guid: 78c97a5b78c97a5b78c97a5b78c97a5b, type: 3}
+  - id: 100013
+    cost: 5
+    kind: 0
+    effect: 3
+    color: 2
+    value: 1
+    threshold: 0
+    seconds: 0
+    description: "\uBCF4\uB77C\uC0C9 \uD37C\uC990 \uB370\uBBF8\uC9C0 \uC99D\uAC00+1%"
+    sprite: {fileID: 21300000, guid: 0fce4acd0fce4acd0fce4acd0fce4acd, type: 3}
+  - id: 100014
+    cost: 5
+    kind: 0
+    effect: 3
+    color: 3
+    value: 1
+    threshold: 0
+    seconds: 0
+    description: "\uBD84\uD64D\uC0C9 \uD37C\uC990 \uB370\uBBF8\uC9C0 \uC99D\uAC00+1%"
+    sprite: {fileID: 21300000, guid: 91aadf6e91aadf6e91aadf6e91aadf6e, type: 3}
+  - id: 100015
+    cost: 5
+    kind: 0
+    effect: 3
+    color: 4
+    value: 1
+    threshold: 0
+    seconds: 0
+    description: "\uD30C\uB791\uC0C9 \uD37C\uC990 \uB370\uBBF8\uC9C0 \uC99D\uAC00+1%"
+    sprite: {fileID: 21300000, guid: e6adeff8e6adeff8e6adeff8e6adeff8, type: 3}
+  - id: 100016
+    cost: 5
+    kind: 0
+    effect: 3
+    color: 5
+    value: 1
+    threshold: 0
+    seconds: 0
+    description: "\uD770\uC0C9 \uD37C\uC990 \uB370\uBBF8\uC9C0 \uC99D\uAC00+1%"
+    sprite: {fileID: 21300000, guid: 7fa4be427fa4be427fa4be427fa4be42, type: 3}
+  - id: 100017
+    cost: 5
+    kind: 0
+    effect: 3
+    color: 6
+    value: 1
+    threshold: 0
+    seconds: 0
+    description: "\uBE68\uAC04\uC0C9 \uD37C\uC990 \uB370\uBBF8\uC9C0 \uC99D\uAC00+1%"
+    sprite: {fileID: 21300000, guid: 08a38ed408a38ed408a38ed408a38ed4, type: 3}
+  - id: 100018
+    cost: 5
+    kind: 0
+    effect: 3
+    color: 7
+    value: 1
+    threshold: 0
+    seconds: 0
+    description: "\uAC80\uC815\uC0C9 \uD37C\uC990 \uB370\uBBF8\uC9C0 \uC99D\uAC00+1%"
+    sprite: {fileID: 21300000, guid: 981c9345981c9345981c9345981c9345, type: 3}
+  - id: 100019
+    cost: 5
+    kind: 0
+    effect: 4
+    color: -1
+    value: 3
+    threshold: 0
+    seconds: 0
+    description: "\uC911\uBCF5\uC0C9 \uD37C\uC990 \uB370\uBBF8\uC9C0 \uC99D\uAC00+3%"
+    sprite: {fileID: 21300000, guid: ef1ba3d3ef1ba3d3ef1ba3d3ef1ba3d3, type: 3}
+  - id: 100100
+    cost: 20
+    kind: 0
+    effect: 5
+    color: -1
+    value: 5
+    threshold: 0
+    seconds: 0
+    description: "\uCD5C\uC885 \uCF54\uC778 \uD68D\uB4DD\uB7C9 \uC99D\uAC00+5%"
+    sprite: {fileID: 21300000, guid: 8e1e40018e1e40018e1e40018e1e4001, type: 3}
+  - id: 100101
+    cost: 20
+    kind: 1
+    effect: 6
+    color: -1
+    value: 10
+    threshold: 0
+    seconds: 10
+    description: "10\uCD08\uB9C8\uB2E4 \uC544\uAD70 \uCE90\uB9AD\uD130\uC758 \uC2A4\uD0AC \uAC8C\uC774\uC9C0 10% \uD68C\uBCF5(\uC815\uC9C0\uB41C \uC2DC\uAC04 \uC81C\uC678)"
+    sprite: {fileID: 21300000, guid: f9197097f9197097f9197097f9197097, type: 3}
+  - id: 100102
+    cost: 20
+    kind: 1
+    effect: 7
+    color: -1
+    value: 10
+    threshold: 10
+    seconds: 0
+    description: "\uD55C \uBC88\uC758 \uB370\uBBF8\uC9C0\uAC00 \uBCF4\uC2A4\uC758 \uCD5C\uB300 \uCCB4\uB825 10% \uCD08\uACFC\uC2DC \uC900 \uB370\uBBF8\uC9C0\uC758 10%\uB9CC\uD07C \uCF54\uC778 \uC9C0\uAE09"
+    sprite: {fileID: 21300000, guid: 6010212d6010212d6010212d6010212d, type: 3}
+  - id: 100103
+    cost: 20
+    kind: 1
+    effect: 8
+    color: -1
+    value: 1
+    threshold: 0
+    seconds: 0
+    description: "\uBC29\uD574 \uBE14\uB85D\uC774 \uC0DD\uC131\uB418\uBA74 \uD55C \uBC88\uB9CC \uADF8 \uC704\uCE58\uC5D0 \uB9AC\uB354 \uCE90\uB9AD\uD130\uC758 \uBC15\uC2A4 \uC544\uC774\uD15C\uC73C\uB85C \uB36E\uC5B4\uC50C\uC6B0\uAE30"
+    sprite: {fileID: 21300000, guid: 171711bb171711bb171711bb171711bb, type: 3}
+  - id: 100104
+    cost: 20
+    kind: 1
+    effect: 9
+    color: -1
+    value: 50
+    threshold: 0
+    seconds: 10
+    description: "\uC2DC\uC791\uC2DC 10\uCD08 \uB3D9\uC548 \uB9AC\uB354 \uCE90\uB9AD\uD130\uC758 \uD37C\uC990 \uBE14\uB85D \uB9AC\uC820 \uD655\uB960+50%(\uC815\uC9C0\uB41C \uC2DC\uAC04 \uC81C\uC678, \uB2E4\uB978 \uD6A8\uACFC\uC640 \uC911\uCCA9 \uBD88\uAC00)"
+    sprite: {fileID: 21300000, guid: 89738418897384188973841889738418, type: 3}
+  - id: 100105
+    cost: 20
+    kind: 0
+    effect: 10
+    color: -1
+    value: 1
+    threshold: 0
+    seconds: 0
+    description: "\uB7EC\uC2DC \uD0C0\uC784\uC5D0\uC11C \uD68D\uB4DD\uD55C \uCD1D \uCF54\uC778+1%"
+    sprite: {fileID: 21300000, guid: fe74b48efe74b48efe74b48efe74b48e, type: 3}
+  - id: 100106
+    cost: 20
+    kind: 0
+    effect: 11
+    color: -1
+    value: 5
+    threshold: 0
+    seconds: 0
+    description: "\uC2B9\uB9AC\uC2DC, \uC81C\uC77C \uD37C\uC990 \uC81C\uAC70 \uC218\uAC00 \uB9CE\uC740 \uCE90\uB9AD\uD130 \uCD94\uAC00 \uACBD\uD5D8\uCE58+5%"
+    sprite: {fileID: 21300000, guid: 677de534677de534677de534677de534, type: 3}
+  - id: 100107
+    cost: 20
+    kind: 0
+    effect: 12
+    color: -1
+    value: 1
+    threshold: 0
+    seconds: 0
+    description: "\uC774\uBC88 \uD310\uC5D0 \uC0AC\uC6A9\uD55C \uC2A4\uD0AC \uC218 \uB9CC\uD07C \uCD94\uAC00 \uCF54\uC778"
+    sprite: {fileID: 21300000, guid: 107ad5a2107ad5a2107ad5a2107ad5a2, type: 3}
+  - id: 100108
+    cost: 20
+    kind: 0
+    effect: 13
+    color: -1
+    value: 3
+    threshold: 0
+    seconds: 0
+    description: "\uAC15\uD654\uB41C \uD37C\uC990 \uD55C \uC870\uAC01\uC740 3\uC870\uAC01 \uB9DE\uCD98 \uAC78\uB85C \uCC98\uB9AC(\uC2A4\uD0AC \uCC44\uC6B0\uAE30\uC5D0 \uC6A9\uC774)"
+    sprite: {fileID: 21300000, guid: 80c5c83380c5c83380c5c83380c5c833, type: 3}

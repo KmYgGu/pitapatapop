@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9db7799238174e4099531d92b09c5c30, type: 3}
+  m_Name: Chapter_2
+  m_EditorClassIdentifier: 
+  displayName: "2\uCC55\uD130 \u00B7 \uBC24\uC758 \uD56D\uAD6C"
+  description: "\uC870\uAE08 \uAC70\uCE5C \uC0C1\uB300\uB4E4"
+  banner: {fileID: 0}
+  kind: 0
+  recommendedLevel: 10
+  openDate: ""
+  closeDate: ""
+  stages:
+  - {fileID: 11400000, guid: 450cfc98b63640a5a12dbc433bb865d5, type: 2}
+  - {fileID: 11400000, guid: 93dd62efc7bb4797b37798e4d64e8514, type: 2}
+  - {fileID: 11400000, guid: 4b63f4ca15154ff8a25124b2a95cbf94, type: 2}
