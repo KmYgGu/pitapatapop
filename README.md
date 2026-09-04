@@ -283,6 +283,17 @@
 | `CrossWipe` | 무작위 열·행을 쓸고 자기 색으로 채움 | 루바니아 「검은 파동!」 |
 | `BurnTrack` | 맨 아랫줄에 점화 블록을 놓기만 함 | 유나 「버닝 트랙!」 |
 
+<table>
+<tr>
+<td width="16.6%" align="center"><img src="readmeshowfile/1_rabrithskill.gif" width="140"><br><sub>라뷰린스<br>ConvertRegion</sub></td>
+<td width="16.6%" align="center"><img src="readmeshowfile/2_cowpensskill.gif" width="140"><br><sub>카우펜스<br>EmpowerColor</sub></td>
+<td width="16.6%" align="center"><img src="readmeshowfile/3_lamiaskill.gif" width="140"><br><sub>라미아 「브릴란스」<br>ScatterConvert</sub></td>
+<td width="16.6%" align="center"><img src="readmeshowfile/4_mysticskill.gif" width="140"><br><sub>미스틱 「포지셔닝」<br>SpecialAnchor</sub></td>
+<td width="16.6%" align="center"><img src="readmeshowfile/5_luvaniaskill.gif" width="140"><br><sub>루바니아 「검은 파동!」<br>CrossWipe</sub></td>
+<td width="16.6%" align="center"><img src="readmeshowfile/6_yunaskill.gif" width="140"><br><sub>유나 「버닝 트랙!」<br>BurnTrack</sub></td>
+</tr>
+</table>
+
 `ScatterConvert` 의 제동 장치(강화된 조각은 탐지에서 빠져 연쇄가 저절로 짧아짐),
 `SpecialAnchor` 가 도입한 새 `CellKind.Special`(자기들끼리는 매치 불가, 중력·변환·상자 전부
 버팀), `BurnTrack` 이 도입한 `CellKind.BurnTrack`(드래그로 옮길 수 있고 조각이 닿는 순간 발동)
