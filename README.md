@@ -50,8 +50,9 @@
 질문으로 정의하기**, **런타임 할당·Destroy 를 없앤 모바일 최적화**, 그리고 **캐릭터·스킬·스테이지가
 계속 늘어나도 코드를 안 고치도록 데이터로 확장 지점을 여는 것**입니다.
 
+
 <p align="center">
-  <video src="readmeshowfile/allplay_compressed.mp4" controls width="240"></video>
+  <video src="https://github.com/user-attachments/assets/bbe185d2-9417-4d58-adfa-33aa42fcc924" controls width="240"></video>
   <br>
   <sub>전체 플레이 — 로그인 → 아파트 → 편성 → 배틀(퍼즐) → 미니게임(도박)</sub>
 </p>
@@ -339,7 +340,7 @@ flowchart LR
 </tr>
 <tr>
 <td width="20%" align="center"><img src="readmeshowfile/9.bank.PNG" width="140"><br><sub>은행</sub></td>
-<td width="20%" align="center"><img src="readmeshowfile/8.minigame.PNG" width="140"><br><sub>미니게임 · 인디언 포커</sub></td>
+<td width="20%" align="center"><img src="readmeshowfile/8.minigame.PNG" width="140"><br><sub>미니게임 · 블랙잭</sub></td>
 <td width="20%" align="center"><img src="readmeshowfile/10.result_gold.PNG" width="140"><br><sub>결과 정산</sub></td>
 <td width="20%" align="center"><img src="readmeshowfile/12.char_result.PNG" width="140"><br><sub>캐릭터 성장 결과</sub></td>
 <td width="20%"></td>
