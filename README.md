@@ -16,18 +16,74 @@
 
 ## 목차
 
-1. [무엇을 만들었나](#무엇을-만들었나)
-2. [핵심 게임 메커니즘](#핵심-게임-메커니즘)
-3. [아키텍처 — 직접 내린 설계 결정들](#아키텍처--직접-내린-설계-결정들)
-4. [알고리즘 하이라이트](#알고리즘-하이라이트)
-5. [모바일 최적화](#모바일-최적화)
-6. [데이터 주도 설계](#데이터-주도-설계)
-7. [앱 전체 흐름과 씬 구성](#앱-전체-흐름과-씬-구성)
-8. [구현한 시스템 목록](#구현한-시스템-목록)
-9. [커스텀 에디터 도구 · Spine 통합 · VFX](#커스텀-에디터-도구--spine-통합--vfx)
-10. [프로젝트 구조](#프로젝트-구조)
-11. [알려진 한계 / 다음 작업](#알려진-한계--다음-작업)
-12. [코드에서 먼저 볼 만한 곳](#코드에서-먼저-볼-만한-곳)
+1. [미리보기 — 스크린샷 · 플레이 영상](#미리보기--스크린샷--플레이-영상)
+2. [무엇을 만들었나](#무엇을-만들었나)
+3. [핵심 게임 메커니즘](#핵심-게임-메커니즘)
+4. [아키텍처 — 직접 내린 설계 결정들](#아키텍처--직접-내린-설계-결정들)
+5. [알고리즘 하이라이트](#알고리즘-하이라이트)
+6. [모바일 최적화](#모바일-최적화)
+7. [데이터 주도 설계](#데이터-주도-설계)
+8. [앱 전체 흐름과 씬 구성](#앱-전체-흐름과-씬-구성)
+9. [구현한 시스템 목록](#구현한-시스템-목록)
+10. [커스텀 에디터 도구 · Spine 통합 · VFX](#커스텀-에디터-도구--spine-통합--vfx)
+11. [프로젝트 구조](#프로젝트-구조)
+12. [알려진 한계 / 다음 작업](#알려진-한계--다음-작업)
+13. [코드에서 먼저 볼 만한 곳](#코드에서-먼저-볼-만한-곳)
+
+---
+
+## 미리보기 — 스크린샷 · 플레이 영상
+
+> 영상·이미지는 전부 [`readmeshowfile/`](readmeshowfile) 폴더에 있습니다.
+
+### 플레이 영상
+
+<table>
+<tr>
+<td width="33%" align="center">
+<video src="readmeshowfile/allplay.mp4" controls width="220"></video>
+<br><b>전체 플레이</b><br>
+로그인 → 아파트 → 편성 → 배틀(퍼즐) → 미니게임(도박)까지 한 번에
+</td>
+<td width="33%" align="center">
+<video src="readmeshowfile/matchandbox.mp4" controls width="220"></video>
+<br><b>자유 드래그 · 박스 생성</b><br>
+조각을 스왑이 아니라 자유롭게 끌어다 놓고, 6개를 맞추면 박스 아이템이 생기는 모습
+</td>
+<td width="33%" align="center">
+<video src="readmeshowfile/standuptime.mp4" controls width="220"></video>
+<br><b>스탠드업 타임</b><br>
+발동 알림 → 정사각형 사이즈업 고정 → 불꽃 흡수 → 최종 데미지까지 한 사이클
+</td>
+</tr>
+</table>
+
+> GitHub 웹에서 바로 재생됩니다. `allplay.mp4` 는 리포에 올리기 전에 480px 폭으로
+> 압축한 버전(약 12MB)을 쓰는 걸 권장합니다 — 원본은 156MB 로 GitHub 의 파일당
+> 100MB 제한을 넘어 그대로는 push 가 거부됩니다.
+
+### 스크린샷
+
+<table>
+<tr>
+<td width="25%" align="center"><img src="readmeshowfile/1_battle_main.PNG" width="160"><br>배틀 메인</td>
+<td width="25%" align="center"><img src="readmeshowfile/2_standup_merge.PNG" width="160"><br>스탠드업 · 정사각형 합체</td>
+<td width="25%" align="center"><img src="readmeshowfile/3_apartment_main.PNG" width="160"><br>아파트 메인</td>
+<td width="25%" align="center"><img src="readmeshowfile/4_room_zoom.PNG" width="160"><br>방 확대</td>
+</tr>
+<tr>
+<td width="25%" align="center"><img src="readmeshowfile/5_formation.PNG" width="160"><br>편성</td>
+<td width="25%" align="center"><img src="readmeshowfile/6_sticker.PNG" width="160"><br>스티커북</td>
+<td width="25%" align="center"><img src="readmeshowfile/7_stage_prep.PNG" width="160"><br>스테이지 선택 · 전투 준비</td>
+<td width="25%" align="center"><img src="readmeshowfile/8_minigame.PNG" width="160"><br>미니게임 · 인디언 포커</td>
+</tr>
+<tr>
+<td width="25%" align="center"><img src="readmeshowfile/9_bank.PNG" width="160"><br>은행</td>
+<td width="25%" align="center"><img src="readmeshowfile/10_result_gold.PNG" width="160"><br>결과 정산</td>
+<td width="25%" align="center"><img src="readmeshowfile/11_standup_finish.PNG" width="160"><br>스탠드업 파이널 · 불꽃 흡수</td>
+<td width="25%" align="center"><img src="readmeshowfile/12_char_result.PNG" width="160"><br>캐릭터 성장 결과</td>
+</tr>
+</table>
 
 ---
 
