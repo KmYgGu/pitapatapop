@@ -5,7 +5,7 @@
 > `Assets/Spine*` · `Assets/ExcelImporter` 는 서드파티 플러그인입니다.
 
 <p align="center">
-  <img src="readmeshowfile/1_battle_main.PNG" width="240" alt="배틀 메인 화면">
+  <img src="readmeshowfile/1.battle_main2.PNG" width="240" alt="배틀 메인 화면">
 </p>
 
 | | |
@@ -90,8 +90,8 @@
   **선형 비례로 재설계**하고 그 근거를 코드 주석에 남겼습니다.
 
 <p align="center">
-  <img src="readmeshowfile/2_standup_merge.PNG" width="200" alt="정사각형 합체 순간">
-  <img src="readmeshowfile/11_standup_finish.PNG" width="200" alt="불꽃 흡수 후 최종 데미지">
+  <img src="readmeshowfile/2.standup_merge.PNG" width="200" alt="정사각형 합체 순간">
+  <img src="readmeshowfile/11.standup_finish.PNG" width="200" alt="불꽃 흡수 후 최종 데미지">
   <br>
   <sub>왼쪽: 정사각형으로 합쳐지는 순간 · 오른쪽: 불꽃이 리더에게 흡수되고 최종 데미지가 들어가는 순간</sub>
 </p>
@@ -331,17 +331,17 @@ flowchart LR
 
 <table>
 <tr>
-<td width="20%" align="center"><img src="readmeshowfile/3_apartment_main.PNG" width="140"><br><sub>아파트 메인</sub></td>
-<td width="20%" align="center"><img src="readmeshowfile/4_room_zoom.PNG" width="140"><br><sub>방 확대 · 입주</sub></td>
-<td width="20%" align="center"><img src="readmeshowfile/7_stage_prep.PNG" width="140"><br><sub>스테이지 선택 · 준비</sub></td>
-<td width="20%" align="center"><img src="readmeshowfile/5_formation.PNG" width="140"><br><sub>편성</sub></td>
-<td width="20%" align="center"><img src="readmeshowfile/6_sticker.PNG" width="140"><br><sub>스티커북</sub></td>
+<td width="20%" align="center"><img src="readmeshowfile/3.apartment_main.PNG" width="140"><br><sub>아파트 메인</sub></td>
+<td width="20%" align="center"><img src="readmeshowfile/4.room_zoom.PNG" width="140"><br><sub>방 확대 · 입주</sub></td>
+<td width="20%" align="center"><img src="readmeshowfile/7.stage_prep.PNG" width="140"><br><sub>스테이지 선택 · 준비</sub></td>
+<td width="20%" align="center"><img src="readmeshowfile/5.formation.PNG" width="140"><br><sub>편성</sub></td>
+<td width="20%" align="center"><img src="readmeshowfile/6.sticker.PNG" width="140"><br><sub>스티커북</sub></td>
 </tr>
 <tr>
-<td width="20%" align="center"><img src="readmeshowfile/9_bank.PNG" width="140"><br><sub>은행</sub></td>
-<td width="20%" align="center"><img src="readmeshowfile/8_minigame.PNG" width="140"><br><sub>미니게임 · 인디언 포커</sub></td>
-<td width="20%" align="center"><img src="readmeshowfile/10_result_gold.PNG" width="140"><br><sub>결과 정산</sub></td>
-<td width="20%" align="center"><img src="readmeshowfile/12_char_result.PNG" width="140"><br><sub>캐릭터 성장 결과</sub></td>
+<td width="20%" align="center"><img src="readmeshowfile/9.bank.PNG" width="140"><br><sub>은행</sub></td>
+<td width="20%" align="center"><img src="readmeshowfile/8.minigame.PNG" width="140"><br><sub>미니게임 · 인디언 포커</sub></td>
+<td width="20%" align="center"><img src="readmeshowfile/10.result_gold.PNG" width="140"><br><sub>결과 정산</sub></td>
+<td width="20%" align="center"><img src="readmeshowfile/12.char_result.PNG" width="140"><br><sub>캐릭터 성장 결과</sub></td>
 <td width="20%"></td>
 </tr>
 </table>
@@ -500,7 +500,6 @@ Assets/
   리젠·데미지 자리에서 아직 호출하지 않습니다.
 - **미조정 / 미구현**: 적 체력 밸런싱, 돌파(스킬 레벨) 시스템, 구글 로그인 SDK, BGM,
   캐릭터 초상화 아트 대부분, 뽑기 화면, 아파트 방 안 자동 대화.
-- **폴더명 `Borad` 오타는 의도적 유지** — 참조 guid 가 매여 있어 바꾸면 얻는 게 이름뿐입니다.
 
 ---
 
