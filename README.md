@@ -4,6 +4,10 @@
 > 이 저장소는 취업 포트폴리오용 스냅샷입니다. 게임 코드(`Assets/Script`, `Assets/Editor`)는 전부 직접 작성했고,
 > `Assets/Spine*` · `Assets/ExcelImporter` 는 서드파티 플러그인입니다.
 
+<p align="center">
+  <img src="readmeshowfile/1_battle_main.PNG" width="240" alt="배틀 메인 화면">
+</p>
+
 | | |
 |---|---|
 | **엔진** | Unity 2022.3.58f1 (URP 14, Linear 색공간) |
@@ -16,74 +20,18 @@
 
 ## 목차
 
-1. [미리보기 — 스크린샷 · 플레이 영상](#미리보기--스크린샷--플레이-영상)
-2. [무엇을 만들었나](#무엇을-만들었나)
-3. [핵심 게임 메커니즘](#핵심-게임-메커니즘)
-4. [아키텍처 — 직접 내린 설계 결정들](#아키텍처--직접-내린-설계-결정들)
-5. [알고리즘 하이라이트](#알고리즘-하이라이트)
-6. [모바일 최적화](#모바일-최적화)
-7. [데이터 주도 설계](#데이터-주도-설계)
-8. [앱 전체 흐름과 씬 구성](#앱-전체-흐름과-씬-구성)
-9. [구현한 시스템 목록](#구현한-시스템-목록)
-10. [커스텀 에디터 도구 · Spine 통합 · VFX](#커스텀-에디터-도구--spine-통합--vfx)
-11. [프로젝트 구조](#프로젝트-구조)
-12. [알려진 한계 / 다음 작업](#알려진-한계--다음-작업)
-13. [코드에서 먼저 볼 만한 곳](#코드에서-먼저-볼-만한-곳)
-
----
-
-## 미리보기 — 스크린샷 · 플레이 영상
-
-> 영상·이미지는 전부 [`readmeshowfile/`](readmeshowfile) 폴더에 있습니다.
-
-### 플레이 영상
-
-<table>
-<tr>
-<td width="33%" align="center">
-<video src="readmeshowfile/allplay.mp4" controls width="220"></video>
-<br><b>전체 플레이</b><br>
-로그인 → 아파트 → 편성 → 배틀(퍼즐) → 미니게임(도박)까지 한 번에
-</td>
-<td width="33%" align="center">
-<video src="readmeshowfile/matchandbox.mp4" controls width="220"></video>
-<br><b>자유 드래그 · 박스 생성</b><br>
-조각을 스왑이 아니라 자유롭게 끌어다 놓고, 6개를 맞추면 박스 아이템이 생기는 모습
-</td>
-<td width="33%" align="center">
-<video src="readmeshowfile/standuptime.mp4" controls width="220"></video>
-<br><b>스탠드업 타임</b><br>
-발동 알림 → 정사각형 사이즈업 고정 → 불꽃 흡수 → 최종 데미지까지 한 사이클
-</td>
-</tr>
-</table>
-
-> GitHub 웹에서 바로 재생됩니다. `allplay.mp4` 는 리포에 올리기 전에 480px 폭으로
-> 압축한 버전(약 12MB)을 쓰는 걸 권장합니다 — 원본은 156MB 로 GitHub 의 파일당
-> 100MB 제한을 넘어 그대로는 push 가 거부됩니다.
-
-### 스크린샷
-
-<table>
-<tr>
-<td width="25%" align="center"><img src="readmeshowfile/1_battle_main.PNG" width="160"><br>배틀 메인</td>
-<td width="25%" align="center"><img src="readmeshowfile/2_standup_merge.PNG" width="160"><br>스탠드업 · 정사각형 합체</td>
-<td width="25%" align="center"><img src="readmeshowfile/3_apartment_main.PNG" width="160"><br>아파트 메인</td>
-<td width="25%" align="center"><img src="readmeshowfile/4_room_zoom.PNG" width="160"><br>방 확대</td>
-</tr>
-<tr>
-<td width="25%" align="center"><img src="readmeshowfile/5_formation.PNG" width="160"><br>편성</td>
-<td width="25%" align="center"><img src="readmeshowfile/6_sticker.PNG" width="160"><br>스티커북</td>
-<td width="25%" align="center"><img src="readmeshowfile/7_stage_prep.PNG" width="160"><br>스테이지 선택 · 전투 준비</td>
-<td width="25%" align="center"><img src="readmeshowfile/8_minigame.PNG" width="160"><br>미니게임 · 인디언 포커</td>
-</tr>
-<tr>
-<td width="25%" align="center"><img src="readmeshowfile/9_bank.PNG" width="160"><br>은행</td>
-<td width="25%" align="center"><img src="readmeshowfile/10_result_gold.PNG" width="160"><br>결과 정산</td>
-<td width="25%" align="center"><img src="readmeshowfile/11_standup_finish.PNG" width="160"><br>스탠드업 파이널 · 불꽃 흡수</td>
-<td width="25%" align="center"><img src="readmeshowfile/12_char_result.PNG" width="160"><br>캐릭터 성장 결과</td>
-</tr>
-</table>
+1. [무엇을 만들었나](#무엇을-만들었나)
+2. [핵심 게임 메커니즘](#핵심-게임-메커니즘)
+3. [아키텍처 — 직접 내린 설계 결정들](#아키텍처--직접-내린-설계-결정들)
+4. [알고리즘 하이라이트](#알고리즘-하이라이트)
+5. [모바일 최적화](#모바일-최적화)
+6. [데이터 주도 설계](#데이터-주도-설계)
+7. [앱 전체 흐름과 씬 구성](#앱-전체-흐름과-씬-구성)
+8. [구현한 시스템 목록](#구현한-시스템-목록)
+9. [커스텀 에디터 도구 · Spine 통합 · VFX](#커스텀-에디터-도구--spine-통합--vfx)
+10. [프로젝트 구조](#프로젝트-구조)
+11. [알려진 한계 / 다음 작업](#알려진-한계--다음-작업)
+12. [코드에서 먼저 볼 만한 곳](#코드에서-먼저-볼-만한-곳)
 
 ---
 
@@ -102,6 +50,12 @@
 질문으로 정의하기**, **런타임 할당·Destroy 를 없앤 모바일 최적화**, 그리고 **캐릭터·스킬·스테이지가
 계속 늘어나도 코드를 안 고치도록 데이터로 확장 지점을 여는 것**입니다.
 
+<p align="center">
+  <video src="readmeshowfile/allplay_compressed.mp4" controls width="240"></video>
+  <br>
+  <sub>전체 플레이 — 로그인 → 아파트 → 편성 → 배틀(퍼즐) → 미니게임(도박)</sub>
+</p>
+
 ---
 
 ## 핵심 게임 메커니즘
@@ -112,6 +66,12 @@
 - 같은 색 **4개 이상** 연결 시 매치, **6개 이상**이면 박스(큐브) 아이템 생성.
 - 자유 드래그라서 매치3의 상식이 뒤집힙니다. "많은 색을 주면 어려워진다"가 아니라 **쉬워지고**,
   진짜 난이도 레버는 팔레트 색 수입니다. 그런 판단이 코드 곳곳 주석에 남아 있습니다.
+
+<p align="center">
+  <img src="readmeshowfile/matchandbox.gif" width="240" alt="자유 드래그로 조각을 옮기고 6개를 맞춰 박스가 생기는 모습">
+  <br>
+  <sub>조각을 자유롭게 끌어다 놓고, 6개를 맞추면 박스 아이템이 생기는 모습</sub>
+</p>
 
 ### 스탠드업 타임 — 프로젝트 고유 메커니즘
 
@@ -128,6 +88,18 @@
   (2×2=1.3배 … 6×6=17.5배, [`StandUpDamageTable`](Assets/Script/Core/StandUpDamageTable.cs)).
 - 원래 기획 엑셀의 2단계 공식은 데미지가 전투력의 제곱으로 커져 레벨 곡선을 망가뜨렸기에,
   **선형 비례로 재설계**하고 그 근거를 코드 주석에 남겼습니다.
+
+<p align="center">
+  <img src="readmeshowfile/2_standup_merge.PNG" width="200" alt="정사각형 합체 순간">
+  <img src="readmeshowfile/11_standup_finish.PNG" width="200" alt="불꽃 흡수 후 최종 데미지">
+  <br>
+  <sub>왼쪽: 정사각형으로 합쳐지는 순간 · 오른쪽: 불꽃이 리더에게 흡수되고 최종 데미지가 들어가는 순간</sub>
+</p>
+<p align="center">
+  <img src="readmeshowfile/standuptime.gif" width="240" alt="스탠드업 타임 발동부터 최종 데미지까지">
+  <br>
+  <sub>발동 알림 → 사이즈업 고정 → 최종 데미지까지 한 사이클</sub>
+</p>
 
 ---
 
@@ -356,6 +328,23 @@ flowchart LR
     R --> A
     M --> A
 ```
+
+<table>
+<tr>
+<td width="20%" align="center"><img src="readmeshowfile/3_apartment_main.PNG" width="140"><br><sub>아파트 메인</sub></td>
+<td width="20%" align="center"><img src="readmeshowfile/4_room_zoom.PNG" width="140"><br><sub>방 확대 · 입주</sub></td>
+<td width="20%" align="center"><img src="readmeshowfile/7_stage_prep.PNG" width="140"><br><sub>스테이지 선택 · 준비</sub></td>
+<td width="20%" align="center"><img src="readmeshowfile/5_formation.PNG" width="140"><br><sub>편성</sub></td>
+<td width="20%" align="center"><img src="readmeshowfile/6_sticker.PNG" width="140"><br><sub>스티커북</sub></td>
+</tr>
+<tr>
+<td width="20%" align="center"><img src="readmeshowfile/9_bank.PNG" width="140"><br><sub>은행</sub></td>
+<td width="20%" align="center"><img src="readmeshowfile/8_minigame.PNG" width="140"><br><sub>미니게임 · 인디언 포커</sub></td>
+<td width="20%" align="center"><img src="readmeshowfile/10_result_gold.PNG" width="140"><br><sub>결과 정산</sub></td>
+<td width="20%" align="center"><img src="readmeshowfile/12_char_result.PNG" width="140"><br><sub>캐릭터 성장 결과</sub></td>
+<td width="20%"></td>
+</tr>
+</table>
 
 - **씬을 여러 개로 나눔.** 씬 이름 문자열은 [`AppScenes`](Assets/Script/App/AppScenes.cs) **한 곳**.
 - **씬 사이 전달은 consume-once static** — [`PartySelection`](Assets/Script/App/PartySelection.cs),
